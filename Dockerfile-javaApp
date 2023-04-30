@@ -2,4 +2,4 @@ FROM openjdk:11
 WORKDIR /tp-jobJenkins
 COPY App.java .
 RUN javac App.java
-CMD["java", "App"]
+CMD ["java", "App"]
